@@ -46,7 +46,8 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	background-color: $dark;
+	background-image: url("images.gif");
+	background-repeat: no-repeat;
 	color: $white;
 	font-size: 16px;
 	height: 100%;
@@ -119,7 +120,7 @@ ul {
 	cursor: pointer;
 	line-height: 1em;
 	padding: 10px;
-	background-color: $dark;
+	background-color: $light-blue;
 	z-index: 100;
 	@media (min-width: $screen-sm-min) {
 		top: 20px;
@@ -128,7 +129,7 @@ ul {
 }
 
 .content-panel {
-	background-color: $medium;
+	background-color: $dark;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
@@ -187,7 +188,7 @@ ul {
 	.fa-linkedin:hover {
 		color: $linkedin;
 	}
-	
+
 	.fa-xing:hover {
 		color: $xing;
 	}
@@ -195,7 +196,7 @@ ul {
 	.fa-google-plus:hover {
 		color: $google-plus;
 	}
-	
+
 	.fa-facebook:hover {
 		color: $facebook;
 	}
@@ -207,15 +208,15 @@ ul {
 	.fa-stack-overflow:hover {
 		color: $stack-overflow;
 	}
-	
+
 	.fa-instagram:hover {
 		color: $instagram;
 	}
-	
+
 	.fa-reddit-alien:hover {
 		color: $reddit;
 	}
-	
+
 	.fa-rss:hover {
 		color: $rss;
 	}
